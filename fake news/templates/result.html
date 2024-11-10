@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    {% if prediction == 0 %}
+        <p>This news is likely NOT fake.</p>
+    {% else %}
+        <p>This news is likely FAKE.</p>
+    {% endif %}
+    <a href="/">Try Another Prediction</a>
+</body>
+</html>
